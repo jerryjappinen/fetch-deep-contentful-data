@@ -12,13 +12,13 @@ import { createClient, fetch } from 'fetch-deep-contentful-data'
 const spaceId = 'abc123'
 const accessToken = 'def456'
 const spaceEnvironment = null // defaults to master
-const usePreviewApi = false // set to true if using preview API access token
+const previewAccessToken = null // To use preview API instead of default API
 
 const myClient = createClient(
   spaceId,
   accessToken,
-  spaceEnvironment,
-  usePreviewApi
+  previewAccessToken,
+  spaceEnvironment
 )
 
 export default (query) => {
