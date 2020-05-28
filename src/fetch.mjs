@@ -1,6 +1,6 @@
-import fetchList from './fetchList'
-import fetchNestedReferences from './fetchNestedReferences'
-import fetchNestedRichText from './fetchNestedRichText'
+import fetchList from './fetchList.mjs'
+import fetchNestedReferences from './fetchNestedReferences.mjs'
+import fetchNestedRichText from './fetchNestedRichText.mjs'
 
 export default async (client, query) => {
   const initialResponse = await fetchList(client, query)

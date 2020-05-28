@@ -9,9 +9,9 @@
     "npm": "6.14.4"
   },
   "scripts": {
-    "patch": "npm version patch -m \"New patch version\" && npm publish",
-    "minor": "npm version minor -m \"New minor version\" && npm publish",
-    "major": "npm version major -m \"New major version\" && npm publish",
+    "patch": "git push && npm version patch -m \"New patch version\" && npm publish && git push",
+    "minor": "git push && npm version minor -m \"New minor version\" && npm publish && git push",
+    "major": "git push && npm version major -m \"New major version\" && npm publish && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
