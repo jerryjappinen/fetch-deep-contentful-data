@@ -1,4 +1,4 @@
-import valueIsEntry from './valueIsEntry.mjs'
+import valueIsEntry from './valueIsEntry'
 
 export default (value) => {
   return valueIsEntry(value) && value.sys.contentType

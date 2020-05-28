@@ -1,8 +1,8 @@
 import { cloneDeep, isArray, keyBy, uniq } from 'lodash'
 
-import fetchList from './fetchList.mjs'
-import valueIsEntry from './valueIsEntry.mjs'
-import valueIsListOfEntries from './valueIsListOfEntries.mjs'
+import fetchList from './fetchList'
+import valueIsEntry from './valueIsEntry'
+import valueIsListOfEntries from './valueIsListOfEntries'
 
 // Fetch nested object fields automatically
 // Any linked objects within Linked and embedded objects only contain `.sys`, not `.fields`. This makes it impossible to fully render linked objects, since the data is not nested deeply enough for our purposes.

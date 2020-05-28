@@ -1,6 +1,6 @@
 import { isArray } from 'lodash'
 
-import valueIsEntry from './valueIsEntry.mjs'
+import valueIsEntry from './valueIsEntry'
 
 export default (value) => {
   return isArray(value) &&
