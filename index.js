@@ -1,2 +1,6 @@
-export { default as createClient } from './src/createClient'
-export { default as fetch } from './src/fetch'
+import createClient from './src/createClient'
+import fetch from './src/fetch'
+
+export const createClient
+
+export const fetch
