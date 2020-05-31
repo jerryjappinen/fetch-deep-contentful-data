@@ -1,5 +1,8 @@
 import { isString } from 'lodash'
-import trimAllWhitespace from 'linna-util/lib/trimAllWhitespace'
+
+const trimAllWhitespace = (string) => {
+  return string.replace(/\s/g, '')
+}
 
 expect.extend({
   // @ts-ignore
