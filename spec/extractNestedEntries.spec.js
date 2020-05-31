@@ -16,8 +16,6 @@ describe('extractNestedEntries', () => {
     contentfulObject2.fields.child.sys.id
   ])
 
-  console.log(Object.keys(extracted))
-
   it('is an object', () => {
     expect(extracted).toBeObject()
   })
