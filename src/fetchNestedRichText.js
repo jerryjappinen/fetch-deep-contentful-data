@@ -1,8 +1,8 @@
 import { cloneDeep, filter, keyBy, uniq } from 'lodash'
 
 import fetchList from './fetchList'
-import valueIsRichTextField from './valueIsRichTextField'
 import { isCustomEntry } from './richTextType'
+import valueIsRichTextField from './valueIsRichTextField'
 
 const getEmbeddedIds = (response) => {
   const ids = []
