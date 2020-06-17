@@ -8,7 +8,7 @@ export default ({
   environment
 }) => {
   return createClient({
-    space: space,
+    space,
     host: previewAccessToken ? 'preview.contentful.com' : undefined,
     environment: environment || 'master',
     accessToken: previewAccessToken || accessToken
