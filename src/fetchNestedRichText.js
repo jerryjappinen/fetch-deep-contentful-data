@@ -1,4 +1,7 @@
-import { cloneDeep, filter, keyBy, uniq } from 'lodash'
+import cloneDeep from 'lodash/cloneDeep'
+import filter from 'lodash/filter'
+import keyBy from 'lodash/keyBy'
+import uniq from 'lodash/uniq'
 
 import fetchList from './fetchList'
 import { isCustomEntry } from './richTextType'

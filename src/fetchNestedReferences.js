@@ -1,4 +1,7 @@
-import { cloneDeep, isArray, keyBy, uniq } from 'lodash'
+import cloneDeep from 'lodash/cloneDeep'
+import isArray from 'lodash/isArray'
+import keyBy from 'lodash/keyBy'
+import uniq from 'lodash/uniq'
 
 import fetchList from './fetchList'
 import valueIsEntry from './valueIsEntry'

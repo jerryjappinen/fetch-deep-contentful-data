@@ -1,4 +1,4 @@
-import { isString } from 'lodash'
+import isString from 'lodash/isString'
 
 const trimAllWhitespace = (string) => {
   return string.replace(/\s/g, '')
