@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest'
+
 import mergeObjectMaps from '../src/mergeObjectMaps'
 
 describe('mergeObjectMaps', () => {
@@ -14,6 +16,7 @@ describe('mergeObjectMaps', () => {
         }
       }
     )
+
     expect(merged.foo).toBeTruthy()
     expect(merged.foo.id).toEqual(123)
     expect(merged.bar).toBeTruthy()

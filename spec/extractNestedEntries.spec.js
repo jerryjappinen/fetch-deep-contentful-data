@@ -1,4 +1,8 @@
+import { describe, it, expect } from 'vitest'
+
+import isPlainObject from 'lodash/isPlainObject'
 import uniq from 'lodash/uniq'
+import values from 'lodash/values'
 
 import extractNestedEntries from '../src/extractNestedEntries'
 
@@ -17,10 +21,14 @@ describe('extractNestedEntries', () => {
   ])
 
   it('is an object', () => {
-    expect(extracted).toBeObject()
+    expect(isPlainObject(extracted)).toBeTruthy()
   })
 
   it('has the right amount of entries', () => {
-    expect(extracted).toContainAllKeys(ids)
+    expect(values(extracted).length).toEqual(ids.length)
+
+    ids.forEach((id) => {
+      expect(extracted[id]).toBeTruthy()
+    })
   })
 })
