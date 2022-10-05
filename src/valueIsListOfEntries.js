@@ -1,4 +1,4 @@
-import isArray from 'lodash/isArray'
+import isArray from 'lodash-es/isArray'
 
 import valueIsEntry from './valueIsEntry'
 

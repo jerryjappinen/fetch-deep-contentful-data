@@ -1,5 +1,5 @@
-import isArray from 'lodash/isArray'
-import omit from 'lodash/omit'
+import isArray from 'lodash-es/isArray'
+import omit from 'lodash-es/omit'
 
 import extractNestedEntries from './extractNestedEntries'
 import fetch from './fetch'

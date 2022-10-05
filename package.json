@@ -24,7 +24,7 @@
   "dependencies": {
     "@contentful/rich-text-types": "^14.1.2",
     "contentful": "^8.5.8",
-    "lodash": "^4.17.21"
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",

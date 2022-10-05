@@ -1,4 +1,4 @@
-import isPlainObject from 'lodash/isPlainObject'
+import isPlainObject from 'lodash-es/isPlainObject'
 
 // These guys are not always returned
 // value.sys.contentType &&

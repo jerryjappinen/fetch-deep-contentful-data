@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest'
 
-import isPlainObject from 'lodash/isPlainObject'
-import uniq from 'lodash/uniq'
-import values from 'lodash/values'
+import isPlainObject from 'lodash-es/isPlainObject'
+import uniq from 'lodash-es/uniq'
+import values from 'lodash-es/values'
 
 import extractNestedEntries from '../src/extractNestedEntries'
 

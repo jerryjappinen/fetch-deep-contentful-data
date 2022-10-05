@@ -1,4 +1,4 @@
-import isArray from 'lodash/isArray'
+import isArray from 'lodash-es/isArray'
 
 import mergeObjectMaps from './mergeObjectMaps'
 import stripEntry from './stripEntry'

@@ -1,5 +1,5 @@
-import filter from 'lodash/filter'
-import isPlainObject from 'lodash/isPlainObject'
+import filter from 'lodash-es/filter'
+import isPlainObject from 'lodash-es/isPlainObject'
 
 import fetchList from './fetchList'
 import fetchNestedReferences from './fetchNestedReferences'
