@@ -10,7 +10,7 @@
   "scripts": {
     "build": "babel src --out-dir lib",
     "prepare": "npm run build",
-    "lint": "eslint src/** spec/**",
+    "lint": "eslint --ignore-path .gitignore \"**/*.{js,ts}\"",
     "lint:fix": "npm run lint -- --fix",
     "lint:fix:dry": "npm run lint -- --fix-dry-run",
     "dev": "vitest",
@@ -28,10 +28,10 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.3",
-    "@babel/core": "^7.10.3",
-    "@babel/node": "^7.10.3",
-    "@babel/preset-env": "^7.10.3",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
     "eslint": "^8.24.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
