@@ -22,8 +22,8 @@
     "src": "./src"
   },
   "dependencies": {
-    "@contentful/rich-text-types": "^14.1.2",
-    "contentful": "^8.5.8",
+    "@contentful/rich-text-types": "^15.13.2",
+    "contentful": "^9.2.5",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
