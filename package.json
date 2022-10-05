@@ -19,7 +19,8 @@
   "author": "",
   "license": "MIT",
   "directories": {
-    "lib": "./lib"
+    "lib": "./lib",
+    "src": "./src"
   },
   "dependencies": {
     "@contentful/rich-text-types": "^14.1.2",
