@@ -1,6 +1,6 @@
 {
   "name": "fetch-deep-contentful-data",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "",
   "main": "lib/index.js",
   "engines": {
